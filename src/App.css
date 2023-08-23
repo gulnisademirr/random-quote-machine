@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Spirax", cursive;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: background-color 0.5s ease-in-out;
+}
+
+#quote-box {
+  background-color: white;
+  padding: 25px 50px;
+  border-radius: 3px;
+  max-width: 560px;
+}
+
+#text {
+  font-size: x-large;
+  margin-bottom: 20px;
+  color: black;
+}
+
+#author {
+  display: flex;
+  float: right;
+}
+
+#footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+button {
+  border-radius: 3px;
+  border-style: none;
+  height: 40px;
+  width: 150px;
+  background-color: black;
+  color: antiquewhite;
+  font-size: large;
+  cursor: pointer;
+}
+
+#tweet-quote {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  display: grid;
+  place-content: center;
+  color: white;
+  font-size: large;
+  border-radius: 3px;
+}
+
+#author {
+  font-size: larger;
+}
+
+.comment {
+  margin-top: 10px;
+  color: black;
+  font-weight: 500;
+}
+
+.quote_icon {
+  margin-right: 15px;
+}
+
+.main {
+  transition: opacity 0.5s ease-in-out;
+}
