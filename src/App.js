@@ -14,7 +14,7 @@ const App = () => {
         const response = await fetch("https://api.quotable.io/random");
         const randomQuote = await response.json();
         setQuote(randomQuote);
-        setColor("#" + Math.floor(Math.random() * 16777).toString(16));
+        setColor("#" + Math.floor(Math.random() * 16777215).toString(16));
 
 console.log(response);
     };

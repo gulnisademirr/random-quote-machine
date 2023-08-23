@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500');
 * {
   margin: 0;
+  padding: 0;
+  list-style: none;
+  vertical-align: baseline;
+  font-family: 'Raleway', sans-serif;
   box-sizing: border-box;
-  font-family: "Spirax", cursive;
+ 
 }
 .container {
   height: 100vh;
@@ -17,6 +22,9 @@
   padding: 25px 50px;
   border-radius: 3px;
   max-width: 560px;
+  position: relative;
+  z-index: 2; 
+  box-shadow: 0px 0px 50px #fff;
 }
 
 #text {
@@ -45,6 +53,14 @@ button {
   color: antiquewhite;
   font-size: large;
   cursor: pointer;
+  
+}
+button:hover {
+	background: #222270;
+  -ms-transform: scale(1.1); 
+  -webkit-transform: scale(1.1); 
+   transform: scale(1.1); 
+	
 }
 
 #tweet-quote {
