@@ -3,7 +3,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faQuoteLeft } from '@fortawesome/free-solid-svg-icons'
 import { faQuoteRight } from '@fortawesome/free-solid-svg-icons'
 
-
 export default function Quote(props) {
     return (
         <div className="main">
@@ -18,7 +17,6 @@ export default function Quote(props) {
                 </i>
                 
             </h1>
-            
 
             <p style={{ color: props.color }} id="author">
                 -{props.author}

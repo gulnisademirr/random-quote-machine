@@ -18,7 +18,6 @@ const App = () => {
 
 console.log(response);
     };
-    // React.useEffect(() => {
         useEffect(() => {
         fetchQuote();
     }, []);
@@ -42,7 +41,6 @@ console.log(response);
                     <Button handleClick={handleClick} />
                 </div>
             </wrapper>
-           
         </div>
     );
 };
